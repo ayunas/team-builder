@@ -13,12 +13,9 @@ export default function MemberForm(props) {
     function submit(e) {
         e.preventDefault();
         props.add(member);
-
-        // console.dir(e.target);
-        // Array.from(e.target.children).forEach(elem => elem.value = '');
-
-        // const found = team.find(teamMember => member === teamMember)
     }
+
+
 
     return (
         <form onSubmit={submit}>

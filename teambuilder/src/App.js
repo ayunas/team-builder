@@ -4,8 +4,6 @@ import MemberForm from './Components/MemberForm';
 import Members from './Components/Members';
 import { teamdata } from './teamdata';
 
-console.log(teamdata);
-
 function App() {
 
   const [team, setTeam] = useState(teamdata);
